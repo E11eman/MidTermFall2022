@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Silkscreen&display=swap');
+
+body{
+    background-color: cyan;
+}
+
+.players{
+    position: relative;
+    left: 4vh;
+    top: 3.5vh;
+
+    width: 8vh;
+}
+
+.grid {
+    display: grid;
+    width: 120vh;
+    position: absolute;
+    top: 1vh;
+    left: 40vh;
+    z-index: -1;
+
+}
+.col {
+    height: 15vh;
+}
+
+.boardspace1 {
+    background-color: red;
+}
+
+.boardspace2 {
+    background-color: green;
+}
+
+.boardspace3 {
+    background-color: blue;
+}
+
+.boardspace4 {
+    background-color: yellow;
+}
+.boardspace5 {
+    background-color: silver;
+}
+.boardspace6 {
+    background-color: gold;
+}
+.boardspace0 {
+    background-color: purple;
+}
+
+.canvas {
+    width: 15vh;
+}
+
+.dice, .gradebox, .blocks {
+    padding-left: 5vh;
+}
+
+.gradebox {
+    width: 35vh;
+}
+
+#stats1 , #stats2, #passedclasses1, #passedclasses2 {
+    position: absolute;
+    right: 4vh;
+    top: 1vh;
+
+    width: 12vh;
+}
+
+#passedclasses1, #passedclasses2 {
+    right: 20vh;
+}
+#stats1, #stats2{
+    right: 30vh;
+}
+
+#stats2, #passedclasses2{
+    top: 20vh;
+}
+
+.blocks {
+    position: relative;
+    left: 35vh;
+    padding-top: 30vh;
+    width: 20vh;
+
+}
+
+p, h4 {
+    font-family: 'Silkscreen', cursive;
+
+}
+
+p {
+    font-size: 3vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
